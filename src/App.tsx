@@ -1,39 +1,54 @@
-import { useState } from 'react'
-import { IllustratorIc, PhotoshopIc, FigmaIc, HTMLIc, } from './globals/StackIcons'
+import { useState, useEffect } from 'react'
+import Navbar from './components/NavBar'
+import Cursor from './components/Cursor';
 import Stack from './sections/Stack'
-import './App.css'
+import "./App.scss";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [isDesktop, setIsDesktop] = useState(true);
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    if (theme === "light") {
+      localStorage.setItem("theme", "dark");
+      setTheme("dark");
+    } else {
+      localStorage.setItem("theme", "light");
+      setTheme("light");
+    }
+  };
+
+  useEffect(() => {
+    const currentTheme = localStorage.getItem("theme");
+    if (currentTheme) {
+      setTheme(currentTheme);
+    }
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-        </a>
-        <a href="https://react.dev" target="_blank">
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-          <IllustratorIc />
-          <PhotoshopIc />
-          <FigmaIc />
-          <HTMLIc />
-          <Stack />
+    <div className="darkmode" id={`${theme}`}>
+      <Navbar toggleTheme={toggleTheme} theme={theme} />
+      {/* <Cursor isDesktop={isDesktop} /> */}
+          <main>
 
-        <p>
 
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+
+
+
+
+
+
+
+
+
+
+
+     
+          </main>
+    </div>
   )
 }
 
