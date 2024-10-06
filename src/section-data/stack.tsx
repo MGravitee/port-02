@@ -8,7 +8,7 @@ import { IllustratorIc, PhotoshopIc, FigmaIc, HTMLIc, } from './globals/StackIco
             title: "Development",
             tools: [
                 "HTML5",
-                "CSS3",
+                "CSS3" ,
                 "JavaScript",
                 "jQuery",
                 "PHP",
