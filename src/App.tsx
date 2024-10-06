@@ -32,7 +32,7 @@ function App() {
       <Navbar toggleTheme={toggleTheme} theme={theme} />
       {/* <Cursor isDesktop={isDesktop} /> */}
           <main>
-
+          <Stack />
 
 
 
