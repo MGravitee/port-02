@@ -1,0 +1,55 @@
+.stack {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stack-container-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .stack-container-grid .stack-card {
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .stack-container-grid .stack-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .stack-container-grid .stack-card .stack-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .stack-container-grid .stack-card .stack-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .stack-container-grid .stack-card .stack-stack span {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* mobile phones */
+  @media (max-width: 768px) {
+    .stack-container-grid .stack-card .stack-stack {
+      justify-content: center;
+      align-items: center;
+    }
+    .stack-container-grid .stack-card .stack-title {
+      text-align: center;
+    }
+  }
+  
