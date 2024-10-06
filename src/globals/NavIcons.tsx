@@ -14,13 +14,8 @@ export const HamburgerMenuO: React.FC<IconSvgProps> = ({
         {...props}
       >
        <g clipPath="url(#clip0_429_11066)">
-<path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="currentColor"/>
 </g>
-<defs>
-<clipPath id="clip0_429_11066">
-<rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"/>
-</clipPath>
-</defs>
 </svg>
     );
   };
@@ -38,15 +33,9 @@ export const HamburgerMenuO: React.FC<IconSvgProps> = ({
         width={size || width}
         {...props}
       >
-<path fillRule="evenodd" clipRule="evenodd" d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z" fill="#000000"/></svg>
+<path fillRule="evenodd" clipRule="evenodd" d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z" fill="currentColor"/></svg>
     );
   };
-
-
-
-
-
-
 
   export const MoonFilledIcon = ({
     size = 24,
@@ -92,3 +81,18 @@ export const HamburgerMenuO: React.FC<IconSvgProps> = ({
     </svg>
   );
   
+  export const ExLinkIC: React.FC<IconSvgProps> = ({
+    size = 30,
+    width,
+    height,
+    ...props
+  }) => {
+    return (
+      <svg
+        height={size || height}
+        viewBox="-1 0 19 19"
+        width={size || width}
+        {...props}
+      ><path d="M16.417 9.583A7.917 7.917 0 1 1 8.5 1.666a7.917 7.917 0 0 1 7.917 7.917zm-3.49-3.99a.396.396 0 0 0-.396-.396H9.088a.396.396 0 0 0 0 .791h2.488L9.952 7.612a1.178 1.178 0 0 0-.562-.142H5.146a1.189 1.189 0 0 0-1.188 1.187v4.244a1.189 1.189 0 0 0 1.188 1.187H9.39a1.189 1.189 0 0 0 1.187-1.187V8.657a1.18 1.18 0 0 0-.092-.459l1.65-1.65v2.488a.396.396 0 0 0 .792 0zm-5.302 5.466 2.16-2.161V12.9a.396.396 0 0 1-.395.396H5.146a.396.396 0 0 1-.396-.396V8.657a.396.396 0 0 1 .396-.396h4.157L7.065 10.5a.396.396 0 1 0 .56.56z" fill="currentColor"/></svg>
+    );
+  };

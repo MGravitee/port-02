@@ -9,16 +9,16 @@ const mobileMenu = (toggleTheme, theme) => {
 
   return (
     <header className="mobile-menu">
-      <div className="mobile-menu-toggle" onClick={toggle}>
+      <button className="mobile-menu-toggle" onClick={toggle}>
         <HamburgerMenuO/>
-      </div>
+      </button>
       {isOpen && (
         <div className="mobile-menu-content" onClick={toggle}>
           <ul>
             <li>
-              <div className="mobile-menu-toggle-close">
+              <button className="mobile-menu-toggle-close">
                 <HamburgerMenuC />
-              </div>
+              </button>
             </li>
             <li>
               <a href="#home">Home</a>

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Navbar from './components/NavBar'
 import Cursor from './components/Cursor';
 import Stack from './sections/Stack'
+import Works from './sections/Works';
 import "./App.scss";
 
 
@@ -33,6 +34,7 @@ function App() {
       {/* <Cursor isDesktop={isDesktop} /> */}
           <main>
           <Stack />
+          <Works />
 
 
 
