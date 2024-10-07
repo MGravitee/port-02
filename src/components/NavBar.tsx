@@ -24,10 +24,10 @@ const mobileMenu = (toggleTheme, theme) => {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects">Work</a>
             </li>
             <li>
-              <a href="#skills">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -63,10 +63,10 @@ const Navbar = ({ toggleTheme, theme }) => {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Work</a>
           </li>
           <li>
-            <a href="#skills">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

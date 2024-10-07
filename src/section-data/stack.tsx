@@ -2,7 +2,7 @@ import { IllustratorIc, PhotoshopIc, FigmaIc, HTMLIc, } from './globals/StackIco
  
  
  export const stack = {
-    title: "Tools",
+    title: "Tools & Tech",
     myTools: [
         {
             title: "< Development >",

@@ -13,9 +13,8 @@ export const HamburgerMenuO: React.FC<IconSvgProps> = ({
         width={size || width}
         {...props}
       >
-       <g clipPath="url(#clip0_429_11066)">
 <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="currentColor"/>
-</g>
+
 </svg>
     );
   };

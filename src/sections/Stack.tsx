@@ -5,8 +5,8 @@ function Stack() {
     const { title, myTools } = stack;
 
     return (
-        <section className="stack" id="stack">
-            <h1>{title}</h1>
+        <>
+            <h2>{title}</h2>
             <div className="stack-container-grid">
                 {myTools.map((tool, index) => (
                     <article className="stack-card" key={index}>
@@ -27,7 +27,7 @@ function Stack() {
                     </article>
                 ))}
             </div>
-        </section>
+        </>
     );
 }
 

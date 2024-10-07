@@ -37,10 +37,10 @@ function Works() {
               </ul>
             </div>
             <div className="project-links">
-              <a href={project.github} target="_blank">
+              <a href={project.github} target="_blank">GitHub 
                 <GitHubIcon className="icon"/>
               </a>
-              <a href={project.demo} target="_blank">
+              <a href={project.demo} target="_blank">Live Site 
                 <ExLinkIC className="icon" />
               </a>
             </div>

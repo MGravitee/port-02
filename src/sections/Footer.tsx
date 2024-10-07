@@ -1,6 +1,11 @@
 function Footer() {
+  const Year = new Date().getFullYear();
   return (
-    <div>Footer</div>
-  )
+      <footer className="footer">
+          <p className="footer-txt">
+              © Matt Garvey {Year} | All Rights Reserved
+          </p>
+      </footer>
+  );
 }
-export default Footer
+export default Footer;

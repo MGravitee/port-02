@@ -8,11 +8,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1.25rem;
-    max-width: 75rem;
+    max-width: var(--max-content-width);
 
     .stack-card {
         border-radius: var(--borderRad);
-        padding: 20px;
+        padding: 1.25rem;
         transition: all 0.2s ease-in-out;
         border-radius: 5px;
         border: 1px solid;

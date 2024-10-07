@@ -8,6 +8,10 @@ const switchColour = (title) => {
         return "design-color";
       case "Other":
         return "other-color";
+      case "design-head":
+        return "other-color";
+      case "dev-head":
+        return "other-color";
       default:
         return "";
     }
