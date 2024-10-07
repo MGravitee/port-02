@@ -1,10 +1,3 @@
-import {
-    IllustratorIc,
-    PhotoshopIc,
-    FigmaIc,
-    HTMLIc,
-} from "./globals/StackIcons";
-
 export const stack = {
     title: "Tools & Tech",
     myTools: [

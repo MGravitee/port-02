@@ -1,6 +1,6 @@
 
 
-const switchColour = (title) => {
+const switchColour = (title: string) => {
     switch (title) {
       case "< Development >":
         return "dev-color";

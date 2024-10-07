@@ -15,6 +15,7 @@ type AnimatedTextProps = {
     };
   };
   
+
   const defaultAnimations = {
     hidden: {
       opacity: 0,
@@ -43,7 +44,7 @@ type AnimatedTextProps = {
     const isInView = useInView(ref, { amount: 0.5, once });
   
     useEffect(() => {
-      let timeout: NodeJS.Timeout;
+      let timeout :number
       const show = () => {
         controls.start("visible");
         if (repeatDelay) {

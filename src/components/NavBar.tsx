@@ -3,7 +3,7 @@ import { useState } from "react"
 import { HamburgerMenuO, HamburgerMenuC, SunFilledIcon, MoonFilledIcon, Logo } from "../globals/NavIcons";
 
 
-const mobileMenu = (toggleTheme, theme) => {
+const mobileMenu = (toggleTheme: () => void, theme: string) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
@@ -48,7 +48,11 @@ const mobileMenu = (toggleTheme, theme) => {
   );
 };
 
-const Navbar = ({ toggleTheme, theme }) => {
+interface NavbarProps {
+  toggleTheme: () => void;
+  theme: string; // For more flexibility
+}
+const Navbar: React.FC<NavbarProps> = ({ toggleTheme, theme }) => {
   return (
     <header>
       <nav className="navbar">
