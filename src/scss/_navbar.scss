@@ -2,6 +2,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    max-width: var(--max-width);
     
     .navbar {
         display: flex;
@@ -38,12 +39,11 @@ header {
         }
     }
 
-    .logo h1 {
+    .logo {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.8rem;
-        font-weight: 700;
+        margin-left: 2rem;
         cursor: pointer;
         -webkit-transition: 1s ease-in-out;
         -moz-transition: 1s ease-in-out;

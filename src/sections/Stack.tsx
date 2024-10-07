@@ -6,7 +6,7 @@ function Stack() {
 
     return (
         <>
-            <h2>{title}</h2>
+            <h2 className="stack-heading">{title}</h2>
             <div className="stack-container-grid">
                 {myTools.map((tool, index) => (
                     <article className="stack-card" key={index}>

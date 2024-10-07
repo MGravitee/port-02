@@ -25,7 +25,7 @@ export const projects = {
         description_list: ["First Click Test", "Preference Test", "Five Second Test", "Useability Tasks", "Think-Aloud Responses"],
         technologies: ["Figma", "Lyssna", "UXPressia", "MSOffice"],
         github: "https://www.saje.ca/",
-        demo: "#",
+        demo: "https://mattgravitee.com/saje/",
       },
       {
         title: "Who's That Pokémon?!?",
@@ -44,7 +44,7 @@ export const projects = {
           "Adobe Illustrator",
         ],
         github: "https://github.com/MGravitee/game-js",
-        demo: "#",
+        demo: "https://mattgravitee.com/pokemon-game/",
       },
     ],
   };

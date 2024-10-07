@@ -3,7 +3,7 @@ import Navbar from "./components/NavBar";
 import Hero from "./sections/Hero";
 import Works from "./sections/Works";
 import About from "./sections/About";
-import Cursor from "./components/Cursor";
+import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import "./App.scss";
 
@@ -35,6 +35,7 @@ function App() {
                 <Hero />
                 <Works />
                 <About />
+                <Contact />
             </main>
             <Footer />
         </div>

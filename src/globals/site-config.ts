@@ -1,11 +1,10 @@
-export type SiteConfig = typeof siteConfig;
+export type SiteConfig = typeof siteLinks;
 
-export const siteConfig = {
-    name: "Matt Garvey | Portfolio",
-    description: "My super cool portfolio",
+export const siteLinks = {
+   
     links: {
         githubLink: "https://github.com/MGravitee",
-        linkedInLink: "https://twitter.com/getnextui",
+        linkedInLink: "https://www.linkedin.com/in/matt-gravitee/",
         emailLink: "mgravitee@gmail.com"
       },
     };

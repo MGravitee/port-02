@@ -1,3 +1,33 @@
+.hero-section {
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+   
+}
+
 .hero-heading {
-    width: 100%;
+    font-size: 4rem;
+}
+
+.anim-text {
+    font-size: 2.25rem; /* Adjust based on your design */
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
 }

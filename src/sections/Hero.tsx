@@ -1,12 +1,26 @@
-import { motion } from "framer-motion";
+import { AnimatedText } from "../components/AnimatedText";
 
 function Hero() {
-  const name = "Matt Garvey".split(" ");
-  const text = "UI + UX Designer | Front-End Developer".split(" ");
-  
   return (
-    <section className="hero">
-    </section>
+        <section id="home" className="hero-section">
+       <h1 className="hero-heading">Matt Gravitee</h1>
+          <AnimatedText
+            el="h2"
+            text={[
+              "UI / UX Designer",
+            ]}
+            className="anim-text design-color"
+            repeatDelay={10000}
+          />
+          <AnimatedText
+            el="h2"
+            text={[
+              "Front-End Developer",
+            ]}
+            className="anim-text dev-color"
+            repeatDelay={10000}
+          />
+        </section>
   );
 }
 

@@ -15,8 +15,19 @@ function Works() {
           <article className="project-card" key={index}>
             <h3 className="project-title">{project.title}</h3>
             <p className="project-description">{project.short}</p>
-            <p className="before-list">Tools I used:</p>
+            <p className="project-description">{project.description}</p>
             <div className="technology-stack">
+            <p className="before-list">{project.before_list}</p>
+            <ul>
+            {project.description_list.map((term, index) => (
+                  <li  key={index}>
+                  {term}
+                </li>
+              ))}
+            </ul>
+            </div>
+            <div className="technology-stack">
+            <p className="before-list">Tools I used:</p>
               <ul>
               {project.technologies.map((tool, index) => (
                 <li className="tech" key={index}>

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { HamburgerMenuO, HamburgerMenuC, SunFilledIcon, MoonFilledIcon } from "../globals/NavIcons";
+import { HamburgerMenuO, HamburgerMenuC, SunFilledIcon, MoonFilledIcon, Logo } from "../globals/NavIcons";
 
 
 const mobileMenu = (toggleTheme, theme) => {
@@ -49,12 +49,11 @@ const mobileMenu = (toggleTheme, theme) => {
 };
 
 const Navbar = ({ toggleTheme, theme }) => {
-  const logo = "{SS}.";
   return (
     <header>
       <nav className="navbar">
         <div className="logo">
-          <h1>{logo}</h1>
+          <Logo size={60}/>
         </div>
         {mobileMenu(toggleTheme, theme)}
         {/* desktop menu */}
