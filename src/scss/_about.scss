@@ -1,0 +1,32 @@
+.about-section {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .about-heading {
+        margin-top: 2rem;
+    }
+    
+    .about-text {
+        margin: 0 auto;
+        max-width: 768px;
+        margin-top: 2rem;
+    }
+}
+
+
+
+//desktop
+@media (min-width: 768px) {
+
+    .about-section {
+        margin-top: 8rem;
+
+
+        .about-heading {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+section.contact {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: var(--max-content-width);
+
+    .contact-heading {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .social-links {
+        margin-top: 4rem;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+        a {
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+        }
+    }
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+//desktop
+@media (min-width: 768px) {
+
+        .contact-heading {
+        margin-top: 8rem;
+        }
+    }

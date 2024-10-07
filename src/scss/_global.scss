@@ -1,0 +1,100 @@
+//googlefonts
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+
+//light/dark basic colours
+
+    --light-theme-background: #fff;
+    --light-theme-color: #000000;
+    --dark-theme-background: #000000;
+    --dark-theme-color: #fff;
+
+//fonts
+
+    --bodyFont: "Open Sans", sans-serif;
+    --headingFont: "Raleway", sans-serif;
+
+//font sizes
+
+--bodyFontSize: clamp(1.05rem, 2.5vw, 1.15rem);
+--headingFontSize: clamp(1rem, 2.5vw, 2rem);
+--footerFontSize: clamp(0.9rem, 3vw, 1rem);
+
+
+// Breakpoints
+--mobile: 20em; // 320px
+--mobile-mid: 25em; // 400px
+--mobile-large: 27.5em; // 440px
+--tablet-small: 37.5em; // 600px
+--tablet: 48em; // 768px
+--desktop: 64em; // 1024px
+--desktop-large: 90em; // 1440px
+
+// Max Width
+--max-width: 120rem; // 1920px
+--max-content-width: 86rem; //this is used on different sections to ensure consistent width on desktop
+
+//Borer Radius
+
+--borderRad: 31.25rem;
+
+  }
+  
+
+  .darkmode {
+    font-family: var(--bodyFont);
+    font-size: var(--bodyFontSize);
+  }
+  
+  #light {
+    background-color: var(--light-theme-background);
+    color: var(--light-theme-color);
+  }
+  
+  #dark {
+    background-color: var(--dark-theme-background);
+    color: var(--dark-theme-color);
+  }
+  
+  main {
+    max-width: var(--max-width);
+    line-height: 1.25;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFont);
+  font-size: var(--headingFontSize);
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: inherit;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
