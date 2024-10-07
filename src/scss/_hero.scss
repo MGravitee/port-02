@@ -6,11 +6,11 @@
 }
 
 .hero-heading {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .anim-text {
-    font-size: 2.25rem; /* Adjust based on your design */
+    font-size: 1.5rem; /* Adjust based on your design */
 }
 
 .sr-only {
@@ -30,4 +30,17 @@
 
 .inline-block {
     display: inline-block;
+}
+@media (min-width: 768px) {
+    
+    .hero-heading {
+        font-size: 4rem;
+    }
+     
+    .anim-text {
+        font-size: 2.25rem; /* Adjust based on your design */
+    }
+       
+    
+    
 }

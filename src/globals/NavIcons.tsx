@@ -38,8 +38,9 @@ export const HamburgerMenuO: React.FC<IconSvgProps> = ({
         viewBox="0 0 24 24"
         width={size || width}
         {...props}
+        clipRule="evenodd" fillRule="evenodd" strokeLinejoin="round" strokeMiterlimit="2"
       >
-<path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="currentColor"/>
+<path d="m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z" fillRule="nonzero"fill="currentColor"/>
 
 </svg>
     );

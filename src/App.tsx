@@ -8,7 +8,6 @@ import Footer from "./sections/Footer";
 import "./App.scss";
 
 function App() {
-    const [isDesktop, setIsDesktop] = useState(true);
     const [theme, setTheme] = useState("light");
 
     const toggleTheme = () => {

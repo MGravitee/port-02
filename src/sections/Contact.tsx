@@ -1,10 +1,10 @@
-import { siteLinks } from "../globals/site-config"
 import CopyEmailBtn from "../components/CopyEmailBtn"
 import { LinkedInIcon, GitHubIcon } from "../globals/SocialIcons"
 
 function Contact() {
-
-  const {githubLink, linkedInLink, emailLink} = siteLinks
+ const githubLink = "https://github.com/MGravitee";
+ const linkedInLink = "https://www.linkedin.com/in/matt-gravitee/"
+  
   return (
       <section  id="contact" className="contact">
               <div className="contact-heading">

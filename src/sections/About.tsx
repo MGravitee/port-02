@@ -10,8 +10,7 @@ function About() {
             <h2 className="about-heading"><span className="design-color">{title}</span> + <span className="dev-color">{title2}</span></h2>
             <p className="about-text">{description1}</p> 
             <p className="about-text">{description2}</p> 
-
-      <Stack />
+            <Stack />
       </section>
     </>
   )

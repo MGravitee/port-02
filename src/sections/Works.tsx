@@ -15,7 +15,6 @@ function Works() {
           <article className="project-card" key={index}>
             <h3 className="project-title">{project.title}</h3>
             <p className="project-description">{project.short}</p>
-            <p className="before-list">Tools I used:</p>
             <div className="technology-stack">
               <ul>
               {project.technologies.map((tool, index) => (

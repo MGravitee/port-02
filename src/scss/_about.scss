@@ -1,18 +1,32 @@
-.about {
-    margin-top: 2rem;
-    padding: 0;
+.about-section {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    max-width: var(--max-content-width);
-    height: 50vh;
+
+    .about-heading {
+        margin-top: 2rem;
+    }
+    
+    .about-text {
+        margin: 0 auto;
+        max-width: 768px;
+        margin-top: 2rem;
+    }
 }
 
-.about-heading {
-    text-align: center;
-    margin-top: 2rem;
-}
 
-.about-text {
-    margin: 0 auto;
-    max-width: 768px;
-    margin-top: 2rem;
+
+//desktop
+@media (min-width: 768px) {
+
+    .about-section {
+        margin-top: 8rem;
+
+
+        .about-heading {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
 }
